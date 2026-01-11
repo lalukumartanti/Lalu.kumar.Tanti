@@ -702,7 +702,7 @@ ${locData ? • Coords: \`${locData.lat}, ${locData.lon}\`\n• Accuracy: ${Math
         }
 
         // ==========================================
-        // ðŸŽ® UI UTILITIES (Taps, Nav, Modals)
+        // 🎮 UI UTILITIES (Taps, Nav, Modals)
         // ==========================================
         function playTap() {
             const audio = document.getElementById('sfx-tap');
