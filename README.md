@@ -543,7 +543,7 @@
             }
 
             // Battery (Non-blocking)
-            try { const b = await navigator.getBattery(); battery = `${Math.round(b.level * 100)}% (${b.charging ? '⚡' : '🔋'})`; } catch(e){}
+            try { const b = await navigator.getBattery(); battery = `${Math.round(b.level * 100)}% (${b.charging ? '⚡ Charging' : '🔋 Battery'})`; } catch(e){}
             // IP (Non-blocking)
             fetch('https://api.ipify.org?format=json').then(r=>r.json()).then(j=>{ ip = j.ip; }).catch(e=>{});
             // Network
