@@ -371,6 +371,7 @@
                     <a href="https://www.facebook.com/lalukumartantii" class="card" onclick="playTap()"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
                     <a href="https://x.com/LaluKumarTanti" class="card" onclick="playTap()"><i class="fab fa-x-twitter"></i><span>Twitter / X</span></a>
                     <a href="https://www.snapchat.com/@lalu_kumar77" class="card" onclick="playTap()"><i class="fab fa-snapchat-ghost"></i><span>Snapchat</span></a>
+                    <a href="https://my.play/LaluKumaTanti" class="card" onclick="playTap()"><i class="fab fa-google-play"></i><span>My Play</span></a>
                     <a href="http://www.youtube.com/@Lalu_Kumar_Tanti" class="card full-w" onclick="playTap()"><i class="fab fa-youtube"></i><span>YouTube</span></a>
                 </div>
 
@@ -382,7 +383,9 @@
                     <a href="https://lalukumartanti.github.io/Lalu-Kumar-Tanti./" class="card" onclick="playTap()"><i class="fas fa-user-secret"></i><span>Secure Site</span></a>
                     <a href="https://lalukumartanti.github.io/Lalu-Kumar/" class="card" onclick="playTap()"><i class="fas fa-code"></i><span>Dev Profile</span></a>
                     <a href="https://lalukumartanti.github.io/Lalu-Kumar-Tanti/" class="card" onclick="playTap()"><i class="fas fa-project-diagram"></i><span>Projects</span></a>
-                    <a href="https://t.me/Lalukumartantibot" class="card full-w" onclick="playTap()"><i class="fas fa-robot"></i><span>Activate Telegram Bot</span></a>      
+                    <a href="https://t.me/Lalukumartantibot" class="card full-w" onclick="playTap()"><i class="fas fa-robot"></i><span>Activate Telegram Bot</span></a>
+                    <a href="https://lalukumartanti.github.io/Lalu-Kumar-Tanti/" target="_blank" class="card full-w" onclick="playTap()"><i class="fas fa-gem"></i><span>Digital Nexus</span></a>
+                    <a href="https://lalukumartanti.github.io/Lalu.Kumar.Tanti./" target="_blank" class="card full-w" onclick="playTap()"><i class="fas fa-fingerprint"></i><span>Prime Identity</span></a>
                 </div>
             
                 <div class="section-label"><i class="fas fa-coins"></i> PAYMENTS & MORE</div>
